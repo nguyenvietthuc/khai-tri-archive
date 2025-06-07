@@ -1,0 +1,97 @@
+/* style.css – phong cách cổ điển đơn giản */
+
+body {
+    background-color: #fefefe;
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    margin-top: 40px;
+    color: #333;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: #003399;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.introduction, .archived {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #aaa;
+}
+
+b {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+.topbar {
+    background-color: #eaeaea;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.topbar h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.topbar nav a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.topbar nav a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.footer a {
+    color: #003399;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
